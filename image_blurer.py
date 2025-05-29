@@ -2,7 +2,7 @@ import numpy as np
 import cv2
 import matplotlib.pyplot as plt
 
-img=cv2.imread("poster2.png")
+img=cv2.imread("mario.jpg")
 img2=img.copy()
 
 
@@ -47,4 +47,5 @@ plt.imshow(img)
 plt.title(f"Image after {pixel_range}^2 matrix convulation")
 plt.imshow(img2)
 
+cv2.imwrite("blurred_image.png", img2)
 
