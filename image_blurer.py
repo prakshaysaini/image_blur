@@ -19,7 +19,7 @@ if(img.shape[0]>600):
 
 #use convulation type
 convu_mat= np.array([[1/9,1/9,1/9],[1/9,1/9,1/9],[1/9,1/9,1/9]])
-convu_mat
+
 def get_new_pixel(i,j,img,pixel_range):
     ans=0.0
     pix=pixel_range//2
