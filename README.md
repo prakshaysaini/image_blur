@@ -5,3 +5,4 @@ Convulation is used by replacing the pixel with the mean of its surrounding pixe
 
 pixel window size is determined by total_pixels/33
 
+Both the .py and .ipynb files are provided
